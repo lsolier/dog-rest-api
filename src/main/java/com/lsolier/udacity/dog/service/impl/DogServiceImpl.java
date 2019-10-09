@@ -2,7 +2,7 @@ package com.lsolier.udacity.dog.service.impl;
 
 import com.lsolier.udacity.dog.entity.Dog;
 import com.lsolier.udacity.dog.repository.DogRepository;
-import com.lsolier.udacity.dog.service.DogNotFoundException;
+import com.lsolier.udacity.dog.exception.DogNotFoundException;
 import com.lsolier.udacity.dog.service.DogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
