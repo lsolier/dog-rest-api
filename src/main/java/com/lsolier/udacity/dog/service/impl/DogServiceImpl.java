@@ -34,7 +34,7 @@ public class DogServiceImpl implements DogService {
 
   @Override
   public List<String> retrieveDogNames() {
-    return dogRepository.findAllNames();
+    return dogRepository.findAllDogNames();
   }
 
   @Override

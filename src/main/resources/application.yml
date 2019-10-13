@@ -8,6 +8,18 @@ spring:
     driverClassName: "org.h2.Driver"
     username: sa
     password: password
+
+graphql:
+  servlet:
+    mapping: "/graphql"
+    enabled: true
+    corsEnabled: true
+
+graphiql:
+  enabled: true
+  endpoint: "/graphql"
+  mapping: graphiql
+
 server:
   port: 9001
 
